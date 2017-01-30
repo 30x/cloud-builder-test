@@ -1,0 +1,10 @@
+package: github.com/30x/cloud-builder-test
+import:
+- package: google.golang.org/api
+  subpackages:
+  - cloudbuild/v1
+- package: golang.org/x/oauth2
+- package: cloud.google.com/go
+  version: ~0.6.0
+  subpackages:
+  - compute/metadata

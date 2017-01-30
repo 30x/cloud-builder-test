@@ -1,1 +1,3 @@
 .idea
+*.json
+cloud-builder-test
